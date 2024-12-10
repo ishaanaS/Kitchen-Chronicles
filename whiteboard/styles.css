@@ -186,8 +186,8 @@ body {
     position: absolute;
     left: 0; 
     top: 32%;
-    transform: translateX(-30%, -32%);
-    max-width: 1000px; 
+    transform: translate(-35%, -12%);
+    max-width: 30%; 
     height: auto;
     z-index: 1; 
     transition: transform 0.3s ease;
