@@ -157,3 +157,62 @@
     75% { transform: rotate(-5deg); }
     100% { transform: rotate(0deg); }
   }
+  @media screen and (max-width: 768px) {
+    .color-glossary {
+        font-size: 8px;
+        top: 10px;
+        right: 10px;
+        padding: 5px;
+    }
+
+    .color-glossary ul {
+        flex-direction: row;
+        gap: 5px;
+    }
+
+    .color-swatch {
+        width: 12px;
+        height: 12px;
+        margin-right: 5px;
+    }
+
+    .home-button {
+        top: 20px;
+        left: 20px;
+        padding: 6px 12px;
+        font-size: 14px;
+    }
+
+    .row-content {
+        animation-duration: 30s;
+    }
+
+    .food-item {
+        height: 50%;
+        margin: 0 10px;
+    }
+}
+
+/* For even smaller screens */
+@media screen and (max-width: 480px) {
+    .color-glossary {
+        font-size: 5px;
+        padding: 5px;
+    }
+
+    .home-button {
+        top: 15px;
+        left: 15px;
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+
+    .food-item {
+        height: 30%;
+        margin: 0 8px;
+    }
+
+    .row-content {
+        animation-duration: 25s;
+    }
+}
