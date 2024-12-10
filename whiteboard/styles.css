@@ -282,21 +282,6 @@ height: auto;
       height: 70px;
     }
 
-    /* .post-it {
-        bottom: 100%;
-        right: 15px;
-      }
-    
-      .post-it2 {
-        bottom: 140px;
-        right: 15px;
-      }
-    
-      .post-it3 {
-        bottom: 15px;
-        right: 140px;
-      } */ 
-
       .whiteboard .post-it {
         bottom: 55px !important;
         right: 15px !important;

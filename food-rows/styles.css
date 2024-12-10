@@ -193,7 +193,7 @@
     }
 }
 
-/* For even smaller screens */
+
 @media screen and (max-width: 480px) {
     .color-glossary {
         font-size: 5px;
