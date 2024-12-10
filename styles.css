@@ -141,7 +141,7 @@ body {
     transform: scale(1.05);
     animation: bounce 1.5s ease-in-out;
     filter: drop-shadow(0px 0px 10px #f4b3ff);
-    cursor:pointer;
+    cursor: pointer;
 }
 @keyframes bounce {
     0%, 20%, 60%, 100% {
