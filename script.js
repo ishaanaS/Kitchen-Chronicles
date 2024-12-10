@@ -1,4 +1,4 @@
-document.querySelector('.fridge').addEventListener('click', function() {
+document.querySelector('.fridge-top').addEventListener('click', function() {
     alert("ERR0R: freezer empty.buy more icecream");
 });
 

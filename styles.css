@@ -113,7 +113,8 @@ body {
     transition: transform 0.3s all ease;
 }
 .fridge-handle2:hover{
-    color: #f4b3ff;
+    background-color: #f4b3ff;
+    cursor: pointer;
 
 }
 .betty{ 
