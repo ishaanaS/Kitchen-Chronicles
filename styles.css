@@ -33,15 +33,15 @@ body {
     background-color: #1d4a1f;
 }
 
-.tile:nth-child(7n) {
+.tile:nth-child(5n) {
     background-color: #386b34;
 }
 
-.tile:nth-child(5n) {
+.tile:nth-child(10n) {
     background-color: #2f6329;
 }
 
-.tile:nth-child(11n) {
+.tile:nth-child(15n) {
     background-color: #254f22;
 }
 
