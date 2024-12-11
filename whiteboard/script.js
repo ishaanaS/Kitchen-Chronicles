@@ -1,38 +1,4 @@
 document.addEventListener('DOMContentLoaded', function() {
-
-  const draggableImages = document.querySelectorAll('.draggable');
-
-    draggableImages.forEach(img => {
-        img.addEventListener('dragstart', handleDragStart);
-        img.addEventListener('dragend', handleDragEnd);
-    });
-
-    function handleDragStart(e) {
-        // Set the data transfer effect and store the image being dragged
-        e.dataTransfer.effectAllowed = 'move';
-        e.dataTransfer.setData('text/plain', null); // For Firefox compatibility
-        this.style.opacity = '0.4'; // Optional: make it semi-transparent while dragging
-    }
-    function handleDragEnd(e) {
-      this.style.opacity = '1'; // Reset opacity after dragging
-  }
-
-  document.addEventListener('dragover', function(e) {
-      e.preventDefault(); // Prevent default behavior to allow dropping
-  });
-
-  document.addEventListener('drop', function(e) {
-      e.preventDefault(); // Prevent default behavior on drop
-      const img = document.querySelector('.draggable[style*="opacity: 0.4"]'); // Find the dragged image
-      if (img) {
-          // Calculate new position
-          const x = e.clientX - img.clientWidth / 2; // Center the image at cursor
-          const y = e.clientY - img.clientHeight / 2;
-            img.style.position = 'absolute'; // Set position to absolute
-            img.style.left = `${x}px`; // Set new left position
-            img.style.top = `${y}px`; // Set new top position
-        }
-      });
    
     const MAIN_MOUSE_BUTTON = 0;
 

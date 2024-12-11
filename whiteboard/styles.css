@@ -4,11 +4,11 @@
     box-sizing: border-box;     
 }
 #theCanvas {
-    height: 80vh; /* Adjust as needed */
-    width: 80vw; /* Adjust as needed */
+    height: 80vh; 
+    width: 80vw; 
     background: white;
     display: block;
-    margin: 0 auto; /* Centers the canvas horizontally */
+    margin: 0 auto; 
     position: absolute;
     top: 50%;
     left: 50%;
@@ -38,7 +38,6 @@ body {
 }
 
 .line {
- 
 
     color: #000000;
     margin-bottom: 20px;
@@ -84,6 +83,7 @@ body {
     display: flex;
     z-index: 9999;
     color: rgb(0, 0, 0);
+    text-decoration: none;
     
    
 }

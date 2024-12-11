@@ -1,5 +1,5 @@
 document.querySelector('.fridge-top').addEventListener('click', function() {
-    alert("ERR0R: freezer empty.buy more icecream");
+    alert("ERR0R: freezer empty. buy more icecream caity!!!!");
 });
 
 const kitchenBg = document.querySelector('.kitchen-bg');
